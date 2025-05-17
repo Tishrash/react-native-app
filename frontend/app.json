@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "research1",
+    "slug": "research1",
+    "version": "1.0.0",
+    "android": {
+      "package": "com.tishanrashmika.autoxpert"
+    },
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  },
+  "dependencies": {
+    "expo": "^48.0.0", 
+    "react-native": "0.71.0", 
+    "@react-navigation/native": "^6.0.0",
+    "@react-navigation/stack": "^6.0.0",
+    "react-native-gesture-handler": "^2.3.0",
+    "react-native-reanimated": "^2.3.0"
+  }
+}
